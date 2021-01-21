@@ -1,0 +1,17 @@
+{
+    "rules": {
+    		".read": "auth != null",
+        ".write": "auth != null",
+        "customers": {
+        	".indexOn": ["uid", "phoneNumber"]
+        },
+        "transactions":{
+        	".indexOn": ["agent", "customerKey"]
+        },
+        "users":{
+          ".indexOn": ["username", "email"],
+        },
+
+    }
+}
+

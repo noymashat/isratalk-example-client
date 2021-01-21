@@ -1,0 +1,10 @@
+// export const LANDING = "/landing";
+// export const HOME = "/";
+export const SIGN_IN = "/signin";
+export const SIGN_UP = "/signup";
+export const MANAGE = "/manage-agents";
+export const PLANS_FARMS = "/plans-and-farms";
+export const PASSWORD_FORGET = "/pw-forget";
+export const CHARGE = "/";
+export const AGENT_HISTORY = "/agent-history";
+export const CUSTOMER_HISTORY = "/customer-history";
